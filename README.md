@@ -23,3 +23,6 @@ For deleting and adding a Card following Components are used: AddCard and Delete
 Additionally, please note, that on adding a new Deck a Default Card is created. And also, if the user deletes a Card in a Deck that has only
 this single card, a default card is added to that Deck. So, at each point in time, a Deck has at least 1 Card. 
 
+//To run the application download the zip and copy the files in a folder that was created by expo. Because the Application will not
+//run without the node_modules folder, which is not possible to submit on GitHub
+
