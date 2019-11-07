@@ -23,6 +23,8 @@ For deleting and adding a Card following Components are used: AddCard and Delete
 Additionally, please note, that on adding a new Deck a Default Card is created. And also, if the user deletes a Card in a Deck that has only
 this single card, a default card is added to that Deck. So, at each point in time, a Deck has at least 1 Card. 
 
+Finally, note that a user is able to save his goal while using the app, that means all added and deleted cards are stored as long as the user keeps the app open. Also on choosing a different deck, after returning the user can still play the same set of cards. (with added or without deleted ones). After closing the app, it will not be stored. 
+
 //To run the application download the zip and copy the files in a folder that was created by expo. Because the Application will not
 run without the node_modules folder, which is not possible to submit on GitHub
 
